@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html data-ng-controller="MainCtrl">
+    <head>
+        <title>{{'page_title' | translate}}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <!-- bower:css -->
+        <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="vendors/angular-loading-bar/build/loading-bar.css" />
+        <!-- endbower -->
+        
+        <link rel="stylesheet" href="./all.css" /> 
+        <style>
+            [ng-cloak] { display:none; }
+        </style>
+    </head>
+    
+    <body ng-cloak>
+        
+        <div data-nav></div>
+
+        
+        
+        <div class="container" data-ui-view="mainView" style=""></div>
+        
+        
+        <!-- bower:js -->
+        <script src="vendors/jquery/dist/jquery.js"></script>
+        <script src="vendors/angular/angular.js"></script>
+        <script src="vendors/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="vendors/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="vendors/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="vendors/angular-route/angular-route.js"></script>
+        <script src="vendors/angular-cookies/angular-cookies.js"></script>
+        <script src="vendors/angular-resource/angular-resource.js"></script>
+        <script src="vendors/angular-websocket/angular-websocket.js"></script>
+        <script src="vendors/angular-loading-bar/build/loading-bar.js"></script>
+        <script src="vendors/angular-animate/angular-animate.js"></script>
+        <script src="vendors/requirejs/require.js"></script>
+        <script src="vendors/angular-translate/angular-translate.js"></script>
+        <script src="vendors/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+        <!-- endbower -->
+        
+         
+        <script>
+            require(['all'], function() {
+               
+            });
+        </script>
+    </body>
+</html>

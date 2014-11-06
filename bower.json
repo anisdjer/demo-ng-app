@@ -1,0 +1,40 @@
+{
+  "name": "angular-demo",
+  "version": "0.0.1",
+  "directory": "./dist/vendors",
+  "description": "My Angular demo for Tritux",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "nodejs",
+    "demo"
+  ],
+  "authors": [
+    "Anis Bouhachem"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "*",
+    "angular-bootstrap": "*",
+    "bootstrap": "*",
+    "angular-ui-router": "*",
+    "angular-route": "*",
+    "angular-cookies": "*",
+    "angular-resource": "*",
+    "angular-websocket": "*",
+    "angular-loading-bar": "*",
+    "angular-animate": "*",
+    "requirejs": "*",
+    "angular-translate": "*",
+    "angular-translate-loader-static-files": "*"
+  }
+}

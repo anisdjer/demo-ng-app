@@ -1,0 +1,29 @@
+<div class="container  col-lg-6 col-lg-offset-3" style="margin-top: 10%;">
+    <div ng-show="loginError" class="alert alert-danger" role="alert"> <i class="glyphicon glyphicon-exclamation-sign"></i> Erreur lors de l'authentification</div>
+    
+    <div class="panel panel-default ">
+        <div class="panel-heading text-center">Connexion</div>
+        <div class="panel-body">
+
+            <form class="form-horizontal" role="form" name="loginForm" data-ng-submit="loginProcess();">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+                <div class="col-sm-9">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email" data-ng-model="form.email" required >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label">Mot de passe</label>
+                <div class="col-sm-9">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Mot de passe" data-ng-model="form.password" required>
+                </div>
+              </div>    
+              <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-9">
+                  <button type="submit" class="btn btn-default">Se connecter</button>
+                </div>
+              </div>
+            </form>
+          </div> 
+        </div>
+</div>

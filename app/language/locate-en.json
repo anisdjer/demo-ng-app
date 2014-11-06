@@ -1,0 +1,12 @@
+{
+    "page_title": "My Angular Demo",
+    
+    
+    "nav.logout" :"Logout",
+    
+    
+    
+    "home.new_post_placeholder" : "Write something here ...",
+    "home.new_post_submit" : "Send"
+    
+}

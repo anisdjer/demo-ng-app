@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html data-ng-controller="MainCtrl">
+    <head>
+        <title>{{'page_title' | translate}}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <!-- bower:css -->
+        <!-- endbower -->
+        
+        <link rel="stylesheet" href="./all.css" /> 
+        <style>
+            [ng-cloak] { display:none; }
+        </style>
+    </head>
+    
+    <body ng-cloak>
+        
+        <div data-nav></div>
+
+        
+        
+        <div class="container" data-ui-view="mainView" style=""></div>
+        
+        
+        <!-- bower:js -->
+        <!-- endbower -->
+        
+         
+        <script>
+            require(['all'], function() {
+               
+            });
+        </script>
+    </body>
+</html>

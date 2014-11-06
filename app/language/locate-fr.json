@@ -1,0 +1,12 @@
+{
+    "page_title": "Mon Demo en Angular",
+    
+    
+    "nav.logout" :"Déconnexion",
+    
+    
+    
+    "home.new_post_placeholder" : "Taper quelque chose ici ...",
+    "home.new_post_submit" : "Envoyer"
+    
+}
