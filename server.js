@@ -22,7 +22,7 @@ var
  
 ;
 
-var users = [ /* Registred users */
+var users = [ /* Registred users */ 
             {
                 id    : 1,
                 email : "anis.bouhachem@tritux.com",
