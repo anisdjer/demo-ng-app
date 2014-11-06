@@ -12,7 +12,7 @@
        
        
        
-       var HomeCtrl = function($rootScope, $scope, AuthService, UserService, PostService, SessionService, WebSocket) {
+       var HomeCtrl = function($timeout, $rootScope, $scope, AuthService, UserService, PostService, SessionService, WebSocket) {
            
             function changeDateFormat (lng) {
                  if(lng==='fr') {
@@ -100,7 +100,7 @@
            console.log(UserService.getUser());
        };
        
-       return ["$rootScope", "$scope", "AuthService", "UserService", "PostService", "SessionService","WebSocket", HomeCtrl];
+       return ["$timeout", "$rootScope", "$scope", "AuthService", "UserService", "PostService", "SessionService","WebSocket", HomeCtrl];
     
     });
 })();
