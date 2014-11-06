@@ -90,7 +90,8 @@
                 if(data.type === 2){
                   
                     $scope.$apply(function () {
-                            $scope.posts = PostService.getPosts();
+                            //$scope.posts = PostService.getPosts();
+							$scope.posts.push(data);
                     });
                 }
             });
