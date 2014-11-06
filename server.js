@@ -34,6 +34,15 @@ var users = [ /* Registred users */
             },
             {
                 id    : 2,
+                email : "olfa.loussaief@mail.com",
+                password : "olfa.loussaief",
+                username : "Olfa Loussaief",
+                roles : [
+                    "user", "anonymous"
+                ]
+            },
+            {
+                id    : 3,
                 email : "imen.ezzine@tritux.com",
                 password : "imen.ezzine",
                 username : "Imen Ezzine",
@@ -42,7 +51,7 @@ var users = [ /* Registred users */
                 ]
             },
             {
-                id    : 3,
+                id    : 4,
                 email : "abdelmalek.troudi@tritux.com",
                 password : "abdelmalek.troudi",
                 username : "Abdelmalek Troudi",
@@ -51,7 +60,7 @@ var users = [ /* Registred users */
                 ]
             },
             {
-                id    : 4,
+                id    : 5,
                 email : "mahdi.raddadi@tritux.com",
                 password : "mahdi.raddadi",
                 username : "Mahdi Raddadi",
