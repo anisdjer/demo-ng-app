@@ -83,7 +83,7 @@ if( ENVIREMENT === "dev") {
 
 
 
-var server = app.listen(8800);
+var server = app.listen(process.env.PORT || 8800);
 
 app.post('/api/auth', function(req, res) {
     ENVIREMENT === "dev" && console.log("Authentication")
