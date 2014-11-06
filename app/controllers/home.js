@@ -37,7 +37,11 @@
                body : ''
            };
            
-           $scope.posts = PostService.getPosts();
+           PostService.getPosts().then(function(posts) {
+			   $timeout(function() {
+			   		$scope.posts = posts;
+			   });
+		   })
            
            $rootScope.user = UserService.getUser();
            $rootScope.user.isAdmin = AuthService.canAccess([USER_ROLES.ADMIN]);
